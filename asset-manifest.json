@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chat/static/css/main.de5078bd.css",
-    "main.js": "/chat/static/js/main.8eef529e.js",
+    "main.js": "/chat/static/js/main.2f0b8cb6.js",
     "static/media/IRANYekanBold.ttf": "/chat/static/media/IRANYekanBold.7e590bd6c2c059d1eb66.ttf",
     "static/media/IRANYekanRegular.ttf": "/chat/static/media/IRANYekanRegular.f7295bcfc6f9f2b27136.ttf",
     "static/media/IRANYekanExtraBlack.ttf": "/chat/static/media/IRANYekanExtraBlack.bff183c3c68eb7927389.ttf",
     "index.html": "/chat/index.html",
     "main.de5078bd.css.map": "/chat/static/css/main.de5078bd.css.map",
-    "main.8eef529e.js.map": "/chat/static/js/main.8eef529e.js.map"
+    "main.2f0b8cb6.js.map": "/chat/static/js/main.2f0b8cb6.js.map"
   },
   "entrypoints": [
     "static/css/main.de5078bd.css",
-    "static/js/main.8eef529e.js"
+    "static/js/main.2f0b8cb6.js"
   ]
 }
