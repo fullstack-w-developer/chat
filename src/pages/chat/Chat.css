@@ -1,0 +1,35 @@
+.chat {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100vh;
+}
+.chat .users:nth-child(1) {
+  overflow-y: auto;
+  background-color: #dfe6e9 !important;
+}
+.chat .users:nth-child(1) > div > div:hover {
+  background-color: #dcdde1 !important;
+}
+.chat .users:nth-child(1)::-webkit-scrollbar {
+  width: 4px;
+}
+.chat .users:nth-child(1)::-webkit-scrollbar-thumb {
+  background-color: #bdc3c7;
+}
+.chat .users:nth-child(1)::-webkit-scrollbar-track {
+  background-color: #ecf0f1;
+}
+
+.content {
+  background-color: #f1f2f6 !important;
+  height: 100%;
+  position: relative;
+}
+
+@media all and (max-width: 960px) {
+  .chat .users {
+    grid-template-columns: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}

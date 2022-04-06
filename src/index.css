@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "bold";
+  src: url("./assest/fonts/IRANYekanBold.ttf");
+}
+@font-face {
+  font-family: "Extrabold";
+  src: url("./assest/fonts/IRANYekanExtraBlack.ttf");
+}
+@font-face {
+  font-family: "regular";
+  src: url("./assest/fonts/IRANYekanRegular.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body{
+  overflow-x: hidden;
+}
+
+.bold{
+  font-family: bold !important;
+}
+.Extrabold{
+  font-family: Extrabold !important;
+}
+.regular{
+  font-family: regular !important;
+}
+.rtl{
+  direction: rtl !important;
+}
+

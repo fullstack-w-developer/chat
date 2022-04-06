@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import axios from "axios";
+import Auth from "./context/Auth";
+axios.defaults.baseURL = "http://localhost:8080/api/v1";
 
-ReactDOM.render(
-  <React.StrictMode>
+
+const container: any = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+root.render(
+  <Auth>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </Auth>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
