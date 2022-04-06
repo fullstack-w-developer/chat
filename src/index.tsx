@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import axios from "axios";
 import Auth from "./context/Auth";
-axios.defaults.baseURL = "http://localhost:8080/api/v1";
+axios.defaults.baseURL = "https://app-chatnodejs.herokuapp.com/api/v1";
 
 
 const container: any = document.getElementById("root");
