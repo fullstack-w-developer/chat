@@ -21,7 +21,7 @@ const Content = ({ selectUser, setSelectUser }: props) => {
   useEffect(() => {
     if (auth) {
       // @ts-ignore
-      socket.current = io("http://localhost:8080");
+      socket.current = io("https://app-chatnodejs.herokuapp.com");
       // @ts-ignore
       socket.current.emit("add-user", auth._id);
     }
